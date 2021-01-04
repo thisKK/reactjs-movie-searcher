@@ -7,7 +7,7 @@ export default class movieItem extends Component {
     render() {
         const {id ,title , overview,poster_src} = this.props.movie
         return (
-            <table key={id} style = {{textAlign: 'left'}}>
+            <table key={id} style = {{textAlign: 'left'  ,borderStyle: 'solid', display: 'block' ,borderBlockColor:'black' , margin:10} }>
                 <tbody>
                     <tr>
                         <td>

@@ -1,17 +1,31 @@
 .App {
   text-align: center;
 }
-
+.App-bg{
+  background-repeat: repeat;
+  background-image: url("assets/bgWallpaper.jpg");
+  opacity: 0.3;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 .Navbar {
-  background-color: #000;
-  display: block;
-  color: #fff;
-  padding-left: 16px;
+  width: 100%;
+  height: 1000px;
+  background-image: url("assets/bgWallpaper.jpg");
+  background-size: cover;
+}
+
+.Navbar-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 10px black;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
